@@ -2,7 +2,7 @@ version: "3"
  
 services:
   web:
-   image: robsonggade/lampp-server:1.0
+   image: robsonggade/lampp-server
    container_name: 'WebServer'
    environment:
     MYSQL_PASS: password
