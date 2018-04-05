@@ -1,0 +1,13 @@
+version: "3"
+ 
+services:
+  web:
+   image: robsonggade/lampp-server:1.0
+   container_name: 'WebServer'
+   environment:
+    MYSQL_PASS: password
+   ports:
+   - "80:80"
+   - "3306:3306"
+   volumes:
+   - ./public:/var/www/html
