@@ -1,3 +1,3 @@
-FROM dev/dev:1.0
+FROM robsonggade/lampp-server:1.0
 EXPOSE 80
-ENTRYPOINT ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+EXPOSE 3306
